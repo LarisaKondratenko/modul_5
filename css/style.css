@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    background-color: #4675d3;
+    background: url(images/bg.jpg) bottom no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: #613d3d;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a {
+    color: #2bdb39;
+    padding: 0 20px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: rgb(70, 78, 75);
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1
+{
+    position: absolute;
+    left: 44%;
+    padding-top: 5%;
+    
+}
